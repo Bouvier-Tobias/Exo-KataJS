@@ -1,11 +1,11 @@
-var size = 8;
-var block = '#';
-var space = ' ';
+let size = 8;
+let block = '#';
+let space = ' ';
 
 function chessBoard(ChessSize){
-  for (var i = 0; i < ChessSize; i++) {
+  for (let i = 0; i < ChessSize; i++) {
   var drawLine = '';
-  for (var y = 0; y < ChessSize; y++){
+  for (let y = 0; y < ChessSize; y++){
     if (i%2) {
         if (y%2) {
             drawLine = drawLine + space;
